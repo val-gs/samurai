@@ -1,0 +1,62 @@
+header {
+  width: 100%;
+}
+
+.header-top {
+  height: 70px;
+  background-color: hotpink;
+}
+
+.header-bottom {
+  height: 50px;
+  background-color: pink;
+}
+
+.main-visual {
+  width: 100%;
+  position: relative;
+}
+
+.back {
+  height: 300px;
+  background-color: orange;
+}
+
+.front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 300px;
+  background-color: gold;
+  z-index: 10;
+}
+
+.main {
+  height: 1400px;
+}
+
+.main-wrapper {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.recent {
+  width: 600px;
+  height: 1400px;
+  background-color: limegreen;
+  float: left;
+}
+
+.main-side {
+  width: 240px;
+  height: 1400px;
+  background-color: palegreen;
+  float: left;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: blue;
+}
